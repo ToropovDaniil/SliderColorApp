@@ -11,6 +11,7 @@
 		AB5337A52B2F52B600A25AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5337A42B2F52B600A25AFD /* ContentView.swift */; };
 		AB5337A72B2F52B700A25AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5337A62B2F52B700A25AFD /* Assets.xcassets */; };
 		AB5337AA2B2F52B700A25AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5337A92B2F52B700A25AFD /* Preview Assets.xcassets */; };
+		AB5337B12B2F563F00A25AFD /* SliderColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5337B02B2F563F00A25AFD /* SliderColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AB5337A42B2F52B600A25AFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB5337A62B2F52B700A25AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5337A92B2F52B700A25AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB5337B02B2F563F00A25AFD /* SliderColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		AB5337A12B2F52B600A25AFD /* SliderColorApp */ = {
 			isa = PBXGroup;
 			children = (
+				AB5337B02B2F563F00A25AFD /* SliderColorView.swift */,
 				AB5337A22B2F52B600A25AFD /* SliderColorAppApp.swift */,
 				AB5337A42B2F52B600A25AFD /* ContentView.swift */,
 				AB5337A62B2F52B700A25AFD /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5337B12B2F563F00A25AFD /* SliderColorView.swift in Sources */,
 				AB5337A52B2F52B600A25AFD /* ContentView.swift in Sources */,
 				AB5337A32B2F52B600A25AFD /* SliderColorAppApp.swift in Sources */,
 			);
