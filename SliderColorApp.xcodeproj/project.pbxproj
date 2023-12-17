@@ -12,6 +12,7 @@
 		AB5337A72B2F52B700A25AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5337A62B2F52B700A25AFD /* Assets.xcassets */; };
 		AB5337AA2B2F52B700A25AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5337A92B2F52B700A25AFD /* Preview Assets.xcassets */; };
 		AB5337B12B2F563F00A25AFD /* SliderColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5337B02B2F563F00A25AFD /* SliderColorView.swift */; };
+		AB5337B52B2FA39900A25AFD /* RoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5337B42B2FA39900A25AFD /* RoundedRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AB5337A62B2F52B700A25AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5337A92B2F52B700A25AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB5337B02B2F563F00A25AFD /* SliderColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorView.swift; sourceTree = "<group>"; };
+		AB5337B42B2FA39900A25AFD /* RoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,9 @@
 		AB5337A12B2F52B600A25AFD /* SliderColorApp */ = {
 			isa = PBXGroup;
 			children = (
-				AB5337B02B2F563F00A25AFD /* SliderColorView.swift */,
-				AB5337A22B2F52B600A25AFD /* SliderColorAppApp.swift */,
-				AB5337A42B2F52B600A25AFD /* ContentView.swift */,
 				AB5337A62B2F52B700A25AFD /* Assets.xcassets */,
+				AB5337B72B2FA86B00A25AFD /* ContentView */,
+				AB5337B62B2FA85100A25AFD /* AdditionalViews */,
 				AB5337A82B2F52B700A25AFD /* Preview Content */,
 			);
 			path = SliderColorApp;
@@ -68,6 +69,24 @@
 				AB5337A92B2F52B700A25AFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5337B62B2FA85100A25AFD /* AdditionalViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB5337B02B2F563F00A25AFD /* SliderColorView.swift */,
+				AB5337B42B2FA39900A25AFD /* RoundedRectangleView.swift */,
+			);
+			path = AdditionalViews;
+			sourceTree = "<group>";
+		};
+		AB5337B72B2FA86B00A25AFD /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				AB5337A42B2F52B600A25AFD /* ContentView.swift */,
+				AB5337A22B2F52B600A25AFD /* SliderColorAppApp.swift */,
+			);
+			path = ContentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			files = (
 				AB5337B12B2F563F00A25AFD /* SliderColorView.swift in Sources */,
 				AB5337A52B2F52B600A25AFD /* ContentView.swift in Sources */,
+				AB5337B52B2FA39900A25AFD /* RoundedRectangleView.swift in Sources */,
 				AB5337A32B2F52B600A25AFD /* SliderColorAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

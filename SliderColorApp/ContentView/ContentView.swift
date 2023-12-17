@@ -16,10 +16,13 @@ struct ContentView: View {
 		ZStack {
 			Color.gray
 				.ignoresSafeArea()
+			
 			VStack {
-				RoundedRectangle(cornerRadius: 20)
-					.frame(width: 350, height: 150)
-					.foregroundStyle(Color(red: redSliderValue/255, green: greenSliderValue/255, blue: blueSliderValue/255))
+				RoundedRectangleView(
+					redValue: $redSliderValue,
+					greenValue: $greenSliderValue,
+					blueValue: $blueSliderValue
+				)
 					.padding()
 				
 				SliderColorView(value: $redSliderValue, color: .red)

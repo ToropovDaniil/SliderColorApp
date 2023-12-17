@@ -14,9 +14,11 @@ struct SliderColorView: View {
 	var body: some View {
 		Slider(value: $value, in: 0...255, step: 1) {
 			Text("Value")
+			
 		} minimumValueLabel: {
 			Text("\(Int(value))")
 				.foregroundStyle(.white)
+			
 		} maximumValueLabel: {
 			Text("255")
 				.foregroundStyle(.white)
